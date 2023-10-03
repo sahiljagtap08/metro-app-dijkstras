@@ -14,5 +14,3 @@ For the nitty-gritty, check out **Main.cpp** where all the action happens, and d
 - You don't need to be a C++ whiz, but some basic knowledge of the language will come in handy.
 - If you're familiar with stuff like graphs and heaps and algorithms like Dijkstra's, BFS, and DFS, that's a bonus, but don't sweat it if you're not.
 - Oh, and if you've heard of the C++ Standard Template Library (STL), it might make things easier (you can learn about it here: [cplusplus.com/reference/stl](http://www.cplusplus.com/reference/stl/)).
-
-You're all set! Just take the structure and ideas from the Java version, translate them into C++, and you're good to go. Happy coding!
