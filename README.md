@@ -1,6 +1,6 @@
 # METRO RAIL APP
 
-Let me clarify upfront that this is not an Android app but a straightforward C++ program. Its purpose? To collect details about your starting and ending metro stations on the Delhi Metro and then give you the shortest route and fare information. It's also got a handy metro map to help you find your way.
+Let me clarify upfront that this is not an Android app but a straightforward C++ program. Its purpose? To collect details about your starting and ending metro stations and then give you the shortest route and fare information. It's also got a handy metro map to help you find your way.
 
 Here's the scoop on how it works: We're using graphs and heaps as our trusty tools. In our world, graphs consist of nodes (representing the metro stations) and edges (showing how stations are connected). Nodes spill the beans on each station - like their names, which corridors they're on, and the lines they link to. Edges, on the other hand, tell us how far apart stations are.
 
