@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class Graph_M
+class Graph
 {
 private:
     struct Vertex
@@ -19,7 +19,7 @@ private:
     unordered_map<string, Vertex> vtces;
 
 public:
-    Graph_M() {}
+    Graph() {}
 
     int numVertex()
     {
@@ -103,7 +103,7 @@ public:
 
     void displayMap()
     {
-        cout << "\t Delhi Metro Map" << endl;
+        cout << "\t DC Metro Map" << endl;
         cout << "\t------------------" << endl;
         cout << "----------------------------------------------------" << endl;
         for (const auto &kv : vtces)
@@ -171,12 +171,14 @@ public:
     class DijkstraPair
     {
     public:
-        string vname;
-        string psf;
-        int cost;
+    string vname;
+    string psf;
+    int cost;
 
-        DijkstraPair(string vname, string psf, int cost)
-            : vname(vname), psf(psf), cost(cost) {}
+    DijkstraPair() : vname(""), psf(""), cost(INT_MAX) {} // Default constructor
+
+    DijkstraPair(string vname, string psf, int cost)
+        : vname(vname), psf(psf), cost(cost) {}
 
         bool operator>(const DijkstraPair &other) const
         {
